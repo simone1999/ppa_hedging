@@ -4,8 +4,8 @@ import streamlit as st
 
 ccgt_efficiency = st.number_input("ccgt efficiency", value=0.52)
 ccgt_eua_per_mwh = st.number_input("ccgt eua per MWh", value=0.39)
-ccgt_operation_cost_per_mwh = st.number_input("ccgt additional cost per MWh", value=12)
-additional_power_plant_price_per_mwh = st.number_input("mean missing price for marginal plants", value=30)
+ccgt_operation_cost_per_mwh = st.number_input("ccgt additional cost in €/MWh", value=12)
+additional_power_plant_price_per_mwh = st.number_input("mean missing price for marginal plants in €/MWH", value=30)
 solar_ppa_established = st.checkbox("was solar PPA Contract established", value=True)
 wind_ppa_established = st.checkbox("was wind PPA Contract established", value=True)
 
